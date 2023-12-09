@@ -15,22 +15,24 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      <Navbar />
-      <Routes>
-        {/* Di bawah adalah route utama */}
-        <Route path="/" element={<Home />} />
-        <Route path="/Profil" element={<Profil />} />
-        <Route path="/Program Studi" element={<Prodi />} />
-        <Route path="/Riset & Kegiatan" element={<Riset />} />
-        <Route path="/Pengumuman" element={<Pengumuman />} />
-        {/* di bawah adalah route dropdown */}
-        <Route path="/Fasilitas" element={<Fasilitas />} />
-        <Route path="/Berita" element={<Berita />} />
-        <Route path="/Kegiatan" element={<Kegiatan />} />
-        <Route path="/Sejarah" element={<Sejarah />} />
-        <Route path="/Struktur" element={<Struktur />} />
-        <Route path="/Visi & Misi" element={<VisiMisi />} />
-      </Routes>
+      <div className="min-h-screen">
+        <Navbar />
+        <Routes>
+          {/* Di bawah adalah route utama */}
+          <Route path="/" element={<Home />} />
+          <Route path="/Profil" element={<Profil />} />
+          <Route path="/Program Studi" element={<Prodi />} />
+          <Route path="/Riset" element={<Riset />} />
+          <Route path="/Pengumuman" element={<Pengumuman />} />
+          {/* di bawah adalah route dropdown */}
+          <Route path="/Fasilitas" element={<Fasilitas />} />
+          <Route path="/Berita" element={<Berita />} />
+          <Route path="/Kegiatan" element={<Kegiatan />} />
+          <Route path="/Sejarah" element={<Sejarah />} />
+          <Route path="/Struktur" element={<Struktur />} />
+          <Route path="/Visi&Misi" element={<VisiMisi />} />
+        </Routes>
+      </div>
     </>
   );
 }

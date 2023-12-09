@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "image": "https://example.com/image1.jpg",
+    "title": "Berita Pertama Berita",
+    "description": "Deskripsi berita pertama yang singkat."
+  },
+  {
+    "id": 2,
+    "image": "https://example.com/image2.jpg",
+    "title": "Berita Kedua Berita",
+    "description": "Deskripsi berita kedua yang singkat."
+  },
+  {
+    "id": 3,
+    "image": "https://example.com/image3.jpg",
+    "title": "Berita Ketiga Berita",
+    "description": "Deskripsi berita ketiga yang singkat."
+  },
+  {
+    "id": 4,
+    "image": "https://example.com/image4.jpg",
+    "title": "Berita Keempat",
+    "description": "Deskripsi berita keempat yang singkat."
+  },
+  {
+    "id": 5,
+    "image": "https://example.com/image5.jpg",
+    "title": "Berita Kelima",
+    "description": "Deskripsi berita kelima yang singkat."
+  }
+]
